@@ -1,0 +1,75 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Arquitectura_Selenium_Maven_Group:Arquitectura_Selenium_Maven_Art:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.commons:commons-io:jar -> duplicate declaration of version 1.3.2 @ line 32, column 13
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --< Arquitectura_Selenium_Maven_Group:Arquitectura_Selenium_Maven_Art >--
+[INFO] Building Arquitectura_Selenium_Maven 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Arquitectura_Selenium_Maven_Art ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Arquitectura_Selenium_Maven_Art ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Arquitectura_Selenium_Maven_Art ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Arquitectura_Selenium_Maven_Art ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ Arquitectura_Selenium_Maven_Art ---
+[INFO] Surefire report directory: C:\Temp\eclipse-workspace\Arquitectura_Selenium_Maven_Art\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running Testcases.Caso_Login_QANova2_test
+Configuring TestNG with: TestNG652Configurator
+------->>   Test loginPage   <<--------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.989 sec <<< FAILURE! - in Testcases.Caso_Login_QANova2_test
+loginTest(Testcases.Caso_Login_QANova2_test)  Time elapsed: 0.049 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Presentación QA Técnico] but found [www.qanovagroup.com]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at Testcases.Caso_Login_QANova2_test.loginTest(Caso_Login_QANova2_test.java:42)
+
+Picked up JAVA_TOOL_OPTIONS: -agentlib:jvmhook
+Picked up _JAVA_OPTIONS: -Xrunjvmhook -Xbootclasspath/a:"C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes";"C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes\jasmine.jar"
+
+Results :
+
+Failed tests: 
+  Caso_Login_QANova2_test.loginTest:42 expected [Presentación QA Técnico] but found [www.qanovagroup.com]
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.140 s
+[INFO] Finished at: 2018-09-06T16:41:41-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.18.1:test (default-test) on project Arquitectura_Selenium_Maven_Art: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\Temp\eclipse-workspace\Arquitectura_Selenium_Maven_Art\target\surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

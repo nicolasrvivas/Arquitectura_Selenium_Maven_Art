@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_6">
+        <methods>
+          <include name="Caso_1_Test"/>
+          <include name="setUp_TL020110_Caso_1"/>
+        </methods>
+      </class> <!-- A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_6 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

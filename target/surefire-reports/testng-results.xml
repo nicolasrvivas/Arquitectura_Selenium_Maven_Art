@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67570" started-at="2019-03-28T12:07:52Z" finished-at="2019-03-28T12:09:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="67570" started-at="2019-03-28T12:07:52Z" finished-at="2019-03-28T12:09:00Z">
+      <class name="A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_1">
+        <test-method status="PASS" signature="setUp_TL020110_Caso_1()[pri:0, instance:A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_1@76a3e297]" name="setUp_TL020110_Caso_1" is-config="true" duration-ms="34452" started-at="2019-03-28T12:07:52Z" finished-at="2019-03-28T12:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp_TL020110_Caso_1 -->
+        <test-method status="PASS" signature="Caso_1_Test()[pri:1, instance:A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_1@76a3e297]" name="Caso_1_Test" duration-ms="32978" started-at="2019-03-28T12:08:27Z" finished-at="2019-03-28T12:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Caso_1_Test -->
+      </class> <!-- A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (1)" duration-ms="345552" started-at="2019-03-28T12:09:35Z" finished-at="2019-03-28T12:15:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="345552" started-at="2019-03-28T12:09:35Z" finished-at="2019-03-28T12:15:21Z">
+      <class name="A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_3">
+        <test-method status="PASS" signature="setUp_TL020110_Caso_1()[pri:0, instance:A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_3@1d371b2d]" name="setUp_TL020110_Caso_1" is-config="true" duration-ms="4312" started-at="2019-03-28T12:09:35Z" finished-at="2019-03-28T12:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp_TL020110_Caso_1 -->
+        <test-method status="PASS" signature="Caso_3_Test()[pri:3, instance:A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_3@1d371b2d]" name="Caso_3_Test" duration-ms="341240" started-at="2019-03-28T12:09:40Z" finished-at="2019-03-28T12:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Caso_3_Test -->
+      </class> <!-- A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="35298" started-at="2019-03-28T12:09:00Z" finished-at="2019-03-28T12:09:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35298" started-at="2019-03-28T12:09:00Z" finished-at="2019-03-28T12:09:35Z">
+      <class name="A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_2">
+        <test-method status="PASS" signature="setUp_TL020110_Caso_1()[pri:0, instance:A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_2@5891e32e]" name="setUp_TL020110_Caso_1" is-config="true" duration-ms="4075" started-at="2019-03-28T12:09:00Z" finished-at="2019-03-28T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp_TL020110_Caso_1 -->
+        <test-method status="PASS" signature="Caso_2_Test()[pri:2, instance:A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_2@5891e32e]" name="Caso_2_Test" duration-ms="31223" started-at="2019-03-28T12:09:04Z" finished-at="2019-03-28T12:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Caso_2_Test -->
+      </class> <!-- A01_TestLab.Proy2_QAnova_Piloto.TL020110_Caso_2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
