@@ -70,7 +70,9 @@ public class Find_String_in_PDF extends TestBase{
     }
 
     public static void main( String [] args) throws IOException{
+    	System.out.println("  /* ------------------------------------------------------------------------- */");
         System.out.println("  Buscqueda   --->>>>  000-0-011922-9  --->>>  ["+verifyPDFContent("000-0-011922-9")+"]  <<<---");
+        System.out.println("  /* ------------------------------------------------------------------------- */");
     }
 	
 }
