@@ -109,7 +109,9 @@ public class Find_String_in_PDF4 extends TestBase{
     }
 
     public static void main( String [] args) throws IOException{
+    	System.out.println("  /* ------------------------------------------------------------------------- */"); 
         System.out.println("  Busca   --->>>>  Download PDF file  --->>>  ["+verifyPDFContent("Download PDF file")+"]  <<<---");
+        System.out.println("  /* ------------------------------------------------------------------------- */"); 
     }
 	
 }
